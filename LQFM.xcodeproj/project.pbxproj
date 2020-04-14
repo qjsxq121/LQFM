@@ -16,6 +16,7 @@
 		090F53BE244401C6002FE98B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 090F53BD244401C6002FE98B /* main.m */; };
 		090F53C8244401C6002FE98B /* LQFMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 090F53C7244401C6002FE98B /* LQFMTests.m */; };
 		090F53D3244401C6002FE98B /* LQFMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 090F53D2244401C6002FE98B /* LQFMUITests.m */; };
+		090F53E4244402D0002FE98B /* LQRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 090F53E3244402D0002FE98B /* LQRemotePlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		090F53CE244401C6002FE98B /* LQFMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQFMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		090F53D2244401C6002FE98B /* LQFMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQFMUITests.m; sourceTree = "<group>"; };
 		090F53D4244401C6002FE98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090F53E2244402D0002FE98B /* LQRemotePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQRemotePlayer.h; sourceTree = "<group>"; };
+		090F53E3244402D0002FE98B /* LQRemotePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQRemotePlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		090F53AA244401C0002FE98B /* LQFM */ = {
 			isa = PBXGroup;
 			children = (
+				090F53E024440242002FE98B /* Function */,
 				090F53AB244401C0002FE98B /* AppDelegate.h */,
 				090F53AC244401C0002FE98B /* AppDelegate.m */,
 				090F53AE244401C0002FE98B /* SceneDelegate.h */,
@@ -135,6 +139,23 @@
 				090F53D4244401C6002FE98B /* Info.plist */,
 			);
 			path = LQFMUITests;
+			sourceTree = "<group>";
+		};
+		090F53E024440242002FE98B /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				090F53E124440242002FE98B /* Player */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		090F53E124440242002FE98B /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				090F53E2244402D0002FE98B /* LQRemotePlayer.h */,
+				090F53E3244402D0002FE98B /* LQRemotePlayer.m */,
+			);
+			path = Player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +291,7 @@
 				090F53B3244401C0002FE98B /* ViewController.m in Sources */,
 				090F53AD244401C0002FE98B /* AppDelegate.m in Sources */,
 				090F53BE244401C6002FE98B /* main.m in Sources */,
+				090F53E4244402D0002FE98B /* LQRemotePlayer.m in Sources */,
 				090F53B0244401C0002FE98B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
